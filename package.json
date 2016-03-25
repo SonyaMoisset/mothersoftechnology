@@ -1,0 +1,28 @@
+{
+  "name": "tribute",
+  "version": "1.0.0",
+  "description": "Tribute page on mothers of technology",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SonyaMoisset/mothersoftechnology.git"
+  },
+  "author": "Sonya Moisset",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SonyaMoisset/mothersoftechnology/issues"
+  },
+  "homepage": "https://github.com/SonyaMoisset/mothersoftechnology#readme",
+  "devDependencies": {
+    "browser-sync": "^2.11.2",
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-cssnano": "^2.1.1",
+    "gulp-jade": "^1.1.0",
+    "gulp-stylus": "^2.3.1",
+    "jade": "^1.11.0"
+  }
+}
