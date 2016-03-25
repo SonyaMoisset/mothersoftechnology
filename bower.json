@@ -1,0 +1,23 @@
+{
+  "name": "tribute",
+  "description": "Tribute page on mothers of technology",
+  "main": "index.js",
+  "authors": [
+    "Sonya Moisset"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "https://github.com/SonyaMoisset/tribute#readme",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "font-awesome": "^4.5.0",
+    "jquery": "^2.2.2"
+  }
+}
