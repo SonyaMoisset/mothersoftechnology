@@ -1,0 +1,83 @@
+doctype html
+html(lang="en")
+
+  head
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    meta(name="description", content="Mothers of technology Tribute Page")
+    meta(name="author", content="Sonya Moisset")
+    
+    title Mothers of Technology
+    
+    link(rel="stylesheet", href="./bower_components/bootstrap/dist/css/bootstrap.min.css")
+    link(rel="stylesheet", href="./bower_components/font-awesome/css/font-awesome.min.css")
+    link(rel="stylesheet", type="text/css", href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700")
+    
+    link(rel="stylesheet", href="./build/css/style.css")
+
+  body
+    nav(role="navigation").navbar.navbar-inverse.navbar-fixed-bottom
+      div.container
+        div.navbar-header
+          button(type="button", data-toggle="collapse", data-target="#menu-collapse").navbar-toggle
+            span.sr-only Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a(href="index.html").navbar-brand Home
+          
+        div#menu-collapse.collapse.navbar-collapse
+          ul.nav.navbar-nav
+            li 
+              a(href="ada_lovelace.html") Ada Lovelace
+            li 
+              a(href="grace_hopper.html") Grace Hopper
+            li 
+              a(href="hedy_lamarr.html") Hedy Lamarr
+            li 
+              a(href="erna_hoover.html") Erna Hoover
+            li 
+              a(href="susan_kare.html") Susan Kare
+            li 
+              a(href="mary_lou_jepsen.html") Mary Lou Jepsen
+            li 
+              a(href="marissa_mayer.html") Marissa Mayer      
+              
+    div.container
+      div.row
+        div.col-xs-12.text-center 
+          h1.mother-main-title Marissa Mayer
+          h5.text-muted Search Siren
+          
+        div.col-xs-12
+          h3.mother-subtitle Her impact on technology
+          p Marissa Mayer is Google’s first female engineer (she’s actually employee number 20), having joined the search-engine superstar back in 1999, when it was still a startup.
+          p Now vice president of location and local services, Mayer leads product management and engineering for a variety of search products, including Google Maps, Local Search, Google Earth, Street View and Latitude. Her talents in user interface design and product vision have helped keep Google at the top as a leading web, mobile and search company.
+          p At 36, she is the youngest member of Google’s executive operating committee, and an inspiration to women aspiring to careers in technology.
+          p “The number one most important thing we can do to increase the number of women in tech is to show a multiplicity of different role models," Mayer said in article for The Huffington Post. “The stereotype of that very complete and rigid picture of what being a computer scientist means really hurts people's understanding and ability to identify with the role and say, ‘Yes, this is something I can be in and want to be in.’”
+          
+          h3.mother-subtitle Where is she now?
+          p Mayer continues her work on local, maps and search-based products at Google. She was also recently named to Wal-Mart’s board of directors.
+          p She is currently serving as the president and CEO of Yahoo!
+          
+          h3.mother-subtitle Words of Wisdom
+          blockquote.blockquote-reverse 
+            p “It’s important to explore some of these far-flung ideas. And I’ve also been at Google long enough now that I’ve seen that some of those far-flung ideas do become core.”  
+            footer
+              cite Marissa Mayer, on the importance of companies experimenting at Le Web 2011
+              
+        div.col-xs-12
+          img(class='img-responsive', src='images/marissa-mayer-thumbnail.jpeg')
+        
+        div.col-xs-12
+          p.text-center Learn more about Marissa Mayer on:
+          div.center-icon
+            a(href='https://en.wikipedia.org/wiki/Marissa_Mayer', alt='Marissa Mayer', target='_blank')
+              i.fa.fa-wikipedia-w.fa-2x    
+            a(href='https://twitter.com/marissamayer', alt='Marissa Mayer', target='_blank')
+              i.fa.fa-twitter.fa-2x
+              
+    script(src="./bower_components/jquery/dist/jquery.min.js")
+    script(src="./bower_components/bootstrap/dist/js/bootstrap.min.js")      
+  

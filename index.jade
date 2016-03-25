@@ -1,0 +1,77 @@
+doctype html
+html(lang="en", class="full")
+
+  head
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    meta(name="description", content="Mothers of technology Tribute Page")
+    meta(name="author", content="Sonya Moisset")
+    
+    title Mothers of Technology
+    
+    link(rel="stylesheet", href="./bower_components/bootstrap/dist/css/bootstrap.min.css")
+    link(rel="stylesheet", href="./bower_components/font-awesome/css/font-awesome.min.css")
+    link(rel="stylesheet", type="text/css", href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700")
+    
+    link(rel="stylesheet", href="./build/css/style.css")
+
+  body
+    nav(role="navigation").navbar.navbar-inverse.navbar-fixed-bottom
+      div.container
+        div.navbar-header
+          button(type="button", data-toggle="collapse", data-target="#menu-collapse").navbar-toggle
+            span.sr-only Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a(href="index.html").navbar-brand Home
+
+        div#menu-collapse.collapse.navbar-collapse
+          ul.nav.navbar-nav
+            li 
+              a(href="ada_lovelace.html") Ada Lovelace
+            li 
+              a(href="grace_hopper.html") Grace Hopper
+            li 
+              a(href="hedy_lamarr.html") Hedy Lamarr
+            li 
+              a(href="erna_hoover.html") Erna Hoover
+            li 
+              a(href="susan_kare.html") Susan Kare
+            li 
+              a(href="mary_lou_jepsen.html") Mary Lou Jepsen
+            li 
+              a(href="marissa_mayer.html") Marissa Mayer 
+            li 
+              div(data-toggle="modal", data-target="#myModal")
+                a.btn.btn-about
+                  span about      
+              
+    div.container
+      div.row
+        div.col-sm-12.col-md-6
+          h1.main.overlay Mothers of Technology
+          p.second 7 Women Who Invented and Innovated in Tech
+          
+          div(tabindex="-1", role="dialog", aria-labelledby="myModalLabel").modal.fade#myModal
+            div(role="document").modal-dialog
+              div.modal-content
+                div.modal-header
+                  button(type="button", data-dismiss="modal", aria-label="Close").close
+                    span.modal-close x
+                  h4.modal-title#myModalLabel
+                    span Mothers of Technology
+                div.modal-body
+                  p.modal-text This webpage is a tribute to 7 women who invented and innovated in tech
+                  p.modal-text Made with HTML5, CSS3, JavaScript, jQuery | CSS Framework and Templating: Bootstrap, Jade, Stylus | Package Manager: Bower, NPM | Workflow Automation: Gulp 
+                div.modal-footer
+                  a(href="https://github.com/SonyaMoisset/mothersoftechnology", target="_blank").btn.btn-social.github
+                    span.fa.fa-github    View Repo
+                  a(href="https://twitter.com/SonyaMoisset", target="_blank").btn.btn-social.twitter
+                    span.fa.fa-twitter    Follow
+                  a(href="https://www.linkedin.com/in/sonyamoisset", target="_blank").btn.btn-social.linkedin
+                    span.fa.fa-linkedin    View Profile
+            
+    script(src="./bower_components/jquery/dist/jquery.min.js")
+    script(src="./bower_components/bootstrap/dist/js/bootstrap.min.js")

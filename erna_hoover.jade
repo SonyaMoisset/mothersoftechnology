@@ -1,0 +1,79 @@
+doctype html
+html(lang="en")
+
+  head
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    meta(name="description", content="Mothers of technology Tribute Page")
+    meta(name="author", content="Sonya Moisset")
+    
+    title Mothers of Technology
+    
+    link(rel="stylesheet", href="./bower_components/bootstrap/dist/css/bootstrap.min.css")
+    link(rel="stylesheet", href="./bower_components/font-awesome/css/font-awesome.min.css")
+    link(rel="stylesheet", type="text/css", href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700")
+    
+    link(rel="stylesheet", href="./build/css/style.css")
+
+  body
+    nav(role="navigation").navbar.navbar-inverse.navbar-fixed-bottom
+      div.container
+        div.navbar-header
+          button(type="button", data-toggle="collapse", data-target="#menu-collapse").navbar-toggle
+            span.sr-only Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a(href="index.html").navbar-brand Home
+          
+        div#menu-collapse.collapse.navbar-collapse
+          ul.nav.navbar-nav
+            li 
+              a(href="ada_lovelace.html") Ada Lovelace
+            li 
+              a(href="grace_hopper.html") Grace Hopper
+            li 
+              a(href="hedy_lamarr.html") Hedy Lamarr
+            li 
+              a(href="erna_hoover.html") Erna Hoover
+            li 
+              a(href="susan_kare.html") Susan Kare
+            li 
+              a(href="mary_lou_jepsen.html") Mary Lou Jepsen
+            li 
+              a(href="marissa_mayer.html") Marissa Mayer        
+              
+    div.container
+      div.row
+        div.col-xs-12.text-center 
+          h1.mother-main-title Dr. Erna Hoover
+          h5.text-muted Telephony Hero
+          
+        div.col-xs-6
+          h3.mother-subtitle Her impact on technology
+          p Dropped calls and busy signals are an annoyance that most could do without. But we’d have a lot more of them if it weren’t for Dr. Erna Hoover. While working at Bell Laboratories, she invented a telephony switching computer program that kept phones functioning under stressful loads.
+          p “I designed the executive program for handling situations when there are too many calls, to keep it operating efficiently without hanging up on itself. Basically it was designed to keep the machine from throwing up its hands and going berserk,” Hoover told the New Jersey Star-Ledger.
+          p Her 1971 patent for this technology was among one of the first software patents ever issued. Even more impressive: She worked on her idea while still in the hospital following the birth of her second daughter.
+          
+          h3.mother-subtitle Where is she now?
+          p In 2008, Hoover was inducted into the National Inventors Hall of Fame in Akron, Ohio, for her work on telephony. At 86, she is now retired.
+          
+          h3.mother-subtitle Words of Wisdom
+          blockquote.blockquote-reverse 
+            p “When I was hired, the glass ceiling was somewhere between the basement and the sub-basement.” 
+            footer
+              cite Dr. Edna Hoover, in the New Jersey Star-Ledger on her experience with the glass ceiling as a woman in technology IT World story
+              
+        div.col-xs-6
+          img(class='img-responsive', src='images/erna-hoover-thumbnail.jpeg')
+        
+        div.col-xs-12
+          p.text-center Learn more about Dr. Erna Hoover on:
+          div.center-icon
+            a(href='https://en.wikipedia.org/wiki/Erna_Schneider_Hoover', alt='Dr. Erna Hoover', target='_blank')
+              i.fa.fa-wikipedia-w.fa-2x
+            
+    script(src="./bower_components/jquery/dist/jquery.min.js")
+    script(src="./bower_components/bootstrap/dist/js/bootstrap.min.js")      
+  

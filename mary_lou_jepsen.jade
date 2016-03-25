@@ -1,0 +1,88 @@
+doctype html
+html(lang="en")
+
+  head
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    meta(name="description", content="Mothers of technology Tribute Page")
+    meta(name="author", content="Sonya Moisset")
+    
+    title Mothers of Technology
+    
+    link(rel="stylesheet", href="./bower_components/bootstrap/dist/css/bootstrap.min.css")
+    link(rel="stylesheet", href="./bower_components/font-awesome/css/font-awesome.min.css")
+    link(rel="stylesheet", type="text/css", href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700")
+    
+    link(rel="stylesheet", href="./build/css/style.css")
+
+  body
+    nav(role="navigation").navbar.navbar-inverse.navbar-fixed-bottom
+      div.container
+        div.navbar-header
+          button(type="button", data-toggle="collapse", data-target="#menu-collapse").navbar-toggle
+            span.sr-only Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a(href="index.html").navbar-brand Home
+          
+        div#menu-collapse.collapse.navbar-collapse
+          ul.nav.navbar-nav
+            li 
+              a(href="ada_lovelace.html") Ada Lovelace
+            li 
+              a(href="grace_hopper.html") Grace Hopper
+            li 
+              a(href="hedy_lamarr.html") Hedy Lamarr
+            li 
+              a(href="erna_hoover.html") Erna Hoover
+            li 
+              a(href="susan_kare.html") Susan Kare
+            li 
+              a(href="mary_lou_jepsen.html") Mary Lou Jepsen
+            li 
+              a(href="marissa_mayer.html") Marissa Mayer       
+              
+    div.container
+      div.row
+        div.col-xs-12.text-center 
+          h1.mother-main-title Mary Lou Jepsen
+          h5.text-muted Screen Display Rebel
+          
+        div.col-xs-12
+          h3.mother-subtitle Her impact on technology
+          p Mary Lou Jepsen knows that the screen is the gateway to all of the transformative powers that a computer can hold. She co-founded and served as the chief technology officer of MicroDisplay in 1995, where worked on creating small screens. She later ran the display division at Intel, until she was spirited away by a bold dream: a computer for every child.
+          p As co-founder of One Laptop Per Child, a nonprofit organization with the mission of providing children worldwide with affordable, green notebook computers, Jepsen gained attention for her hardware prowess in producing the XO, one of the lowest-power, lowest-cost notebooks ever made.
+          p The prototype device was unveiled at the UN by Kofi Annan, and Jepsen won the backing and support of major manufacturers which allowed OPLC to kick-start high-volume production of its devices.
+          
+          h3.mother-subtitle Where is she now?
+          p Jepsen left OPLC in 2008 to start Pixel Qi, a for-profit company that leveraged many of the technological advances she achieved with the XO.
+          p As the company begins rolling out its end-user devices with Jepsen’s displays, she couldn’t be prouder of the technological milestones.
+          p “We have pushed the power consumption of screens down by up to 10 times in products we are shipping today, and are poised to bring that down another 10 times using our new architectures,” Jepsen told BizTech magazine in a recent interview. “We have shipped 3 million units, all readable in direct sunlight, and are the first truly fabless-display company using existing high-volume machinery at the factories in novel ways to achieve this dramatic power savings.”
+          p She is currently an executive at Facebook / Oculus VR.
+          
+          h3.mother-subtitle Words of Wisdom
+          blockquote.blockquote-reverse 
+            p “Devices should not need power adaptors. The calculator is the correct model. A little room light on a solar cell is all that is needed to power a calculator. Wouldn’t it be great if we could do the same for cell phones, laptops, tablets and personal medical devices? To get there, we will need to use better solar cells and batteries, but the screens must decrease the power consumption 100-fold to enable this, as we are doing at Pixel Qi.” 
+            footer
+              cite Mary Lou Jepsen, in a recent interview with BizTech magazine
+              
+        div.col-xs-12
+          img(class='img-responsive', src='images/mary-lou-jepsen-thumbnail.jpeg')
+        
+        div.col-xs-12
+          p.text-center Learn more about Mary Lou Jepsen on:
+          div.center-icon
+            a(href='http://www.maryloujepsen.com/', alt='Mary Lou Jepsen', target='_blank')
+              i.fa.fa-chrome.fa-2x
+            a(href='https://en.wikipedia.org/wiki/Mary_Lou_Jepsen', alt='Mary Lou Jepsen', target='_blank')
+              i.fa.fa-wikipedia-w.fa-2x
+            a(href='https://www.linkedin.com/in/majepsen', alt='Mary Lou Jepsen', target='_blank')
+              i.fa.fa-linkedin.fa-2x
+            a(href='https://twitter.com/mljmljmlj', alt='Mary Lou Jepsen', target='_blank')
+              i.fa.fa-twitter.fa-2x
+            
+    script(src="./bower_components/jquery/dist/jquery.min.js")
+    script(src="./bower_components/bootstrap/dist/js/bootstrap.min.js")      
+  

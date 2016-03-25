@@ -1,0 +1,85 @@
+doctype html
+html(lang="en")
+
+  head
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    meta(name="description", content="Mothers of technology Tribute Page")
+    meta(name="author", content="Sonya Moisset")
+    
+    title Mothers of Technology
+    
+    link(rel="stylesheet", href="./bower_components/bootstrap/dist/css/bootstrap.min.css")
+    link(rel="stylesheet", href="./bower_components/font-awesome/css/font-awesome.min.css")
+    link(rel="stylesheet", type="text/css", href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700")
+    
+    link(rel="stylesheet", href="./build/css/style.css")
+
+  body
+    nav(role="navigation").navbar.navbar-inverse.navbar-fixed-bottom
+      div.container
+        div.navbar-header
+          button(type="button", data-toggle="collapse", data-target="#menu-collapse").navbar-toggle
+            span.sr-only Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a(href="index.html").navbar-brand Home
+          
+        div#menu-collapse.collapse.navbar-collapse
+          ul.nav.navbar-nav
+            li 
+              a(href="ada_lovelace.html") Ada Lovelace
+            li 
+              a(href="grace_hopper.html") Grace Hopper
+            li 
+              a(href="hedy_lamarr.html") Hedy Lamarr
+            li 
+              a(href="erna_hoover.html") Erna Hoover
+            li 
+              a(href="susan_kare.html") Susan Kare
+            li 
+              a(href="mary_lou_jepsen.html") Mary Lou Jepsen
+            li 
+              a(href="marissa_mayer.html") Marissa Mayer       
+              
+    div.container
+      div.row
+        div.col-xs-12.text-center 
+          h1.mother-main-title Hedy Lamarr
+          h5.text-muted Wireless Visionary
+          
+        div.col-xs-12
+          h3.mother-subtitle Her impact on technology
+          p Largely known as a screen star of the 1920s, Hedy Lamarr proved to be more than just a pretty face. She played a key role in the invention of spread-spectrum technology; specifically, by conceptualizing the idea of frequency hopping, which is a method of sending radio signals from different frequency channels.
+          p Lamarr and her co-inventor, George Antheil, developed the technology originally to help the Navy remotely control torpedoes. The key value of frequency hopping was that the randomized channel switching made it difficult for outside agents to understand what was being communicated. It was, in essence, an early form of encryption technology.
+          p The two received a patent on their idea on August 11, 1942, according to the American Heritage of Invention & Technology. But despite lobbying and fundraising efforts on their part, the Navy ultimately passed on the technology.
+          p It was reborn, however, in the late 1950s when engineers at Sylvania Electronic Systems Division revived it, which led to the use of Lamarr’s frequency hopping concept in secure military communications. Her work on spread-spectrum has played a part in many modern wireless technologies, such as Bluetooth, Wi-Fi and Code Division Multiple Access (CDMA).
+          
+          h3.mother-subtitle Where is she now?
+          p After initially receiving very little recognition for her work on spread-spectrum technology, Lamarr was honored with a special award: the Pioneer Award by the Electronic Frontier Foundation in 1997. This long overdue recognition for her scientific endeavors came just three years before her death, in 2000.
+          p Her legacy lives on in the world of wireless technologies, and through the continued efforts of her son Anthony Loder. He recently spoke with CBS News about his mother’s gift for invention, which is the subject of Hedy’s Folly, a new book by Pulitzer Prize–winning writer Richard Rhodes.
+          
+          h3.mother-subtitle Words of Wisdom
+          blockquote.blockquote-reverse 
+            p “When they called her up to tell her she would get the award, her first words were, Hedy Lamarr being Hedy Lamarr, ‘Well, it's about time.’”
+            footer
+              cite Writer Richard Rhodes recalls Lamarr's response to her award in an NPR story
+              
+        div.col-xs-12
+          img(class='img-responsive', src='images/hedy-lamarr-thumbnail.jpeg')
+        
+        div.col-xs-12
+          p.text-center Learn more about Hedy Lamarr on:
+          div.center-icon
+            a(href='https://en.wikipedia.org/wiki/Hedy_Lamarr', alt='Hedy Lamarr', target='_blank')
+              i.fa.fa-wikipedia-w.fa-2x
+            a(href='http://www.imdb.com/name/nm0001443/', alt='Hedy Lamarr', target='_blank')
+              i.fa.fa-film.fa-2x
+            a(href='https://en.wikiquote.org/wiki/Hedy_Lamarr', alt='Hedy Lamarr', target='_blank')
+              i.fa.fa-quote-right.fa-2x
+            
+    script(src="./bower_components/jquery/dist/jquery.min.js")
+    script(src="./bower_components/bootstrap/dist/js/bootstrap.min.js")      
+  

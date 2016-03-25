@@ -1,0 +1,82 @@
+doctype html
+html(lang="en")
+
+  head
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    meta(name="description", content="Mothers of technology Tribute Page")
+    meta(name="author", content="Sonya Moisset")
+    
+    title Mothers of Technology
+    
+    link(rel="stylesheet", href="./bower_components/bootstrap/dist/css/bootstrap.min.css")
+    link(rel="stylesheet", href="./bower_components/font-awesome/css/font-awesome.min.css")
+    link(rel="stylesheet", type="text/css", href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700")
+    
+    link(rel="stylesheet", href="./build/css/style.css")
+
+  body
+    nav(role="navigation").navbar.navbar-inverse.navbar-fixed-bottom
+      div.container
+        div.navbar-header
+          button(type="button", data-toggle="collapse", data-target="#menu-collapse").navbar-toggle
+            span.sr-only Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a(href="index.html").navbar-brand Home
+          
+        div#menu-collapse.collapse.navbar-collapse
+          ul.nav.navbar-nav
+            li 
+              a(href="ada_lovelace.html") Ada Lovelace
+            li 
+              a(href="grace_hopper.html") Grace Hopper
+            li 
+              a(href="hedy_lamarr.html") Hedy Lamarr
+            li 
+              a(href="erna_hoover.html") Erna Hoover
+            li 
+              a(href="susan_kare.html") Susan Kare
+            li 
+              a(href="mary_lou_jepsen.html") Mary Lou Jepsen
+            li 
+              a(href="marissa_mayer.html") Marissa Mayer      
+              
+    div.container
+      div.row
+        div.col-xs-12.text-center 
+          h1.mother-main-title Ada Lovelace
+          h5.text-muted Algorithm Enchantress
+          
+        div.col-xs-6
+          img(class='img-responsive', src='images/ada-lovelace-thumbnail.jpeg')
+          
+        div.col-xs-6
+          h3.mother-subtitle Her impact on technology
+          p Ada Lovelace was unique in that she developed an algorithm for a computer that didn’t yet exist — an accomplishment that some say qualifies her as the world’s first computer programmer.
+          p Born to English nobility in 1815, Lovelace was put to work by Charles Babbage in 1843, documenting his never-to-be-realized “computer,” the Analytical Engine. Starting with a document written in French by Luigi Menabrea, an Italian mathematician, Lovelace added extensive notes to the English translation, including the world’s first computer algorithm.
+          p The Analytical Engine was intended to count Bernoulli numbers, but Babbage was unsuccessful in getting the funding to build his machine. Notably, Lovelace was able to see the potential for the computer beyond simple math.
+          
+          h3.mother-subtitle Where is she now?
+          p In 1852, Lovelace died of uterine cancer at the age of 36.
+          p Her work went largely underreported for many years, but today she’s celebrated each year on Ada Lovelace Day and memorialized by the object-oriented programming language that bears her name, Ada.
+          
+          h3.mother-subtitle Words of Wisdom
+          blockquote.blockquote-reverse 
+            p “A new, a vast, and a powerful language is developed for the future use of analysis, in which to wield its truths so that these may become of more speedy and accurate practical application for the purposes of mankind than the means hitherto in our possession have rendered possible.”
+            footer
+              cite Ada Lovelace, on the possibilities of a machine-driven computing language in her notes on the Analytical Engine
+        
+        div.col-xs-12
+          p.text-center Learn more about Ada Lovelace on:
+          div.center-icon
+            a(href='https://en.wikipedia.org/wiki/Ada_Lovelace', alt='Ada Lovelace', target='_blank')
+              i.fa.fa-wikipedia-w.fa-2x
+            a(href='https://en.wikiquote.org/wiki/Ada_Lovelace', alt='Ada Lovelace', target='_blank')
+              i.fa.fa-quote-right.fa-2x
+            
+    script(src="./bower_components/jquery/dist/jquery.min.js")
+    script(src="./bower_components/bootstrap/dist/js/bootstrap.min.js")      
+  

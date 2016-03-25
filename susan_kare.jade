@@ -1,0 +1,84 @@
+doctype html
+html(lang="en")
+
+  head
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    meta(name="description", content="Mothers of technology Tribute Page")
+    meta(name="author", content="Sonya Moisset")
+    
+    title Mothers of Technology
+    
+    link(rel="stylesheet", href="./bower_components/bootstrap/dist/css/bootstrap.min.css")
+    link(rel="stylesheet", href="./bower_components/font-awesome/css/font-awesome.min.css")
+    link(rel="stylesheet", type="text/css", href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700")
+    
+    link(rel="stylesheet", href="./build/css/style.css")
+
+  body
+    nav(role="navigation").navbar.navbar-inverse.navbar-fixed-bottom
+      div.container
+        div.navbar-header
+          button(type="button", data-toggle="collapse", data-target="#menu-collapse").navbar-toggle
+            span.sr-only Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a(href="index.html").navbar-brand Home
+          
+        div#menu-collapse.collapse.navbar-collapse
+          ul.nav.navbar-nav
+            li 
+              a(href="ada_lovelace.html") Ada Lovelace
+            li 
+              a(href="grace_hopper.html") Grace Hopper
+            li 
+              a(href="hedy_lamarr.html") Hedy Lamarr
+            li 
+              a(href="erna_hoover.html") Erna Hoover
+            li 
+              a(href="susan_kare.html") Susan Kare
+            li 
+              a(href="mary_lou_jepsen.html") Mary Lou Jepsen
+            li 
+              a(href="marissa_mayer.html") Marissa Mayer       
+              
+    div.container
+      div.row
+        div.col-xs-12.text-center 
+          h1.mother-main-title Susan Kare
+          h5.text-muted User Interface Guru
+          
+        div.col-xs-12
+          h3.mother-subtitle Her impact on technology
+          p Susan Kare, described by some as “the Betsy Ross of the Personal Computer,” was the designer who helped bring the Apple computer to life with her sophisticated typography and iconic graphic design skills. Working alongside Steve Jobs, she shaped many of the now-common interface elements of the Mac, like the command icon, which she found while looking through a book of symbols.
+          p She also created the Happy Mac icon, which greeted Apple users when they booted their machines, and the trash can icon, which let users know where to put files they no longer wanted. If Jobs is credited with making technology more personable through Apple’s devices, it’s in part because of Kare’s efforts to make the computer feel more like a friend — and less like a machine.
+          p But she didn’t work exclusively on Apple products. In the mid-1980s, after Jobs was forced out, Kare left Apple and worked with Microsoft, where she applied her design skills to humanizing the Windows 3.0 operating system.
+          p Kare’s design work didn’t stop with Apple and Microsoft. Her hand can be seen in many of Facebook’s “digital gifts,” including the friendly rubber ducky. Her most recent digital footprint can be seen in the online media powerhouse Glam Media, where she served as a co-founder and the organization’s creative director.
+          
+          h3.mother-subtitle Where is she now?
+          p Kare owns a digital design firm (kare.com) in San Francisco, and she sells prints of her designs on kareprints.com
+          
+          h3.mother-subtitle Words of Wisdom
+          blockquote.blockquote-reverse 
+            p “It is possible to teach most people to use one of these computers in about 20 minutes. A lot of that is because you can explain what an icon means and a person can remember it easily.” 
+            footer
+              cite Susan Kare, on why Macs are so user friendly in an interview from the Computer Chronicles in 1984
+              
+        div.col-xs-12
+          img(class='img-responsive', src='images/susan-kare-thumbnail.jpeg')
+        
+        div.col-xs-12
+          p.text-center Learn more about Susan Kare on:
+          div.center-icon
+            a(href='http://www.kare.com/', alt='Susan Kare', target='_blank')
+              i.fa.fa-chrome.fa-2x
+            a(href='https://en.wikipedia.org/wiki/Susan_Kare', alt='Susan Kare', target='_blank')
+              i.fa.fa-wikipedia-w.fa-2x
+            a(href='https://twitter.com/susankare', alt='Susan Kare', target='_blank')
+              i.fa.fa-twitter.fa-2x
+            
+    script(src="./bower_components/jquery/dist/jquery.min.js")
+    script(src="./bower_components/bootstrap/dist/js/bootstrap.min.js")      
+  
